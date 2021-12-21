@@ -57,7 +57,7 @@ const NuevoProyecto = () => {
     <div className='p-10 flex flex-col items-center'>
       <div className='self-start'>
         <Link to='/proyectos'>
-          <i className='fas fa-arrow-left' />
+          <i className='fas fa-chevron-circle-left' />
         </Link>
       </div>
       <h1 className='text-2xl font-bold text-gray-900'>Crear Nuevo Proyecto</h1>
