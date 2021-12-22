@@ -44,7 +44,7 @@ const Logout = () => {
 const Logo = () => {
   return (
     <div className='py-3 w-full flex flex-col items-center justify-center'>
-      
+      <img src='https://previews.123rf.com/images/epicfail/epicfail1702/epicfail170200239/72740134-concepto-de-dise%C3%B1o-de-l%C3%ADnea-delgada-para-banner-de-sitio-web-de-proyecto-.jpg?fj=1' alt='Logo' className='h-16' />
       <span className='my-2 text-xl font-bold text-center'>Gestión de Proyectos</span>
     </div>
   );
@@ -133,3 +133,5 @@ const SidebarRouteImagen = ({ to, title, icon }) => {
 };
 
 export default Sidebar;
+
+

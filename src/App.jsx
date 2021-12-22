@@ -25,7 +25,8 @@ import Profile from 'pages/profile';
 // import PrivateRoute from 'components/PrivateRoute';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:4000/graphql',
+  //uri: 'http://localhost:4000/graphql',
+  uri: 'https://backendciclo4gestionproyectos.herokuapp.com/graphql',
 });
 
 const authLink = setContext((_, { headers }) => {
